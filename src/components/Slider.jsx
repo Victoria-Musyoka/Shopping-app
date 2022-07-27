@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Container=styled.div`
   width:90%;
-  height:90vh;
+  height:100vh;
   display:flex;
 
   position:relative;
@@ -97,7 +97,7 @@ const Slider = () => {
        </Arrow>
        <Wrapper slideIndex={slideIndex}>
         {sliderItems.map(item=>(
-        <Slide bg={item.bg}>
+        <Slide bg={item.bg}key={item.id}>
           <ImgContainer>
           <Image src={item.img}/>
           </ImgContainer>
