@@ -82,7 +82,12 @@ cursor:pointer;
 
 
 const Slider = () => {
-    const [slideIndex,setSlideIndex]=useState(0)
+    const [slideIndex,setSlideIndex]=useState(0);
+    const [isLike,setIsLike]=useState();
+
+    function handleLike(){
+      setIsLike((isLike)=>!isLike);
+    }
     const handleClick = (direction)=>{
         if (direction === "left") {
             setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
@@ -104,7 +109,9 @@ const Slider = () => {
           <InfoContainer>
             <Title>{item.title}</Title>
             <Description>{item.description}</Description>
-            <Button>BUY NOW</Button>
+            <div>
+            <Button onClick={handleLike}>{isLike? "unlike": "Like"}</Button>
+            </div>
           </InfoContainer>
           </Slide>
        ))}

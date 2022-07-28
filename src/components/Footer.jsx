@@ -44,18 +44,6 @@ const Title = styled.h3`
   margin-bottom: 30px;
 `;
 
-// const List = styled.ul`
-//   margin: 0;
-//   padding: 0;
-//   list-style: none;
-//   display: flex;
-//   flex-wrap: wrap;
-// `;
-
-// const ListItem = styled.li`
-//   width: 50%;
-//   margin-bottom: 10px;
-// `;
 
 const Right=styled.div`
 flex:1;
@@ -74,7 +62,7 @@ const Footer = () => {
         <Left>
             <Logo>SHOPPING</Logo>
             <Description>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore doloremque placeat nemo repellat beatae molestias, iste recusandae temporibus! Ut dolor earum libero eos nihil laborum vel facilis commodi necessitatibus.
+                The shop that allows you to express yourself. We have many options to choose from. The best services are provided for the customer. Here to serve you. WELCOME BACK!!
             </Description>
             <SocialContainer>
                 <SocialIcon color="3B5999">
@@ -92,18 +80,7 @@ const Footer = () => {
             </SocialContainer>
         </Left>
         <Center>
-            {/* <Title>Useful links</Title>
-            <List>
-                <ListItem>Home</ListItem>
-                <ListItem>Cart</ListItem>
-                <ListItem>Man Fashion</ListItem>
-                <ListItem>Woman Fashion</ListItem>
-                <ListItem>Accessories</ListItem>
-                <ListItem>My Account</ListItem>
-                <ListItem>Order Tracking</ListItem>
-                <ListItem>Wishlist</ListItem>
-                <ListItem>Terms</ListItem>
-            </List> */}
+        
         </Center>
         <Right>
             <Title>Contact</Title>

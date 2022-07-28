@@ -1,13 +1,12 @@
 import './App.css';
-// import Product from './pages/Product';
 import Home from './pages/Home';
-// import ProductList from './pages/ProductList';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
 import Navbar from './components/Navbar';
 import {Route , Routes} from 'react-router-dom'
 import Comments from './components/Comments';
+
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/comment" element={<Comments />} />
+       
         
        </Routes>
       
