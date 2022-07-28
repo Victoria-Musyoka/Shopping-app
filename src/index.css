@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  
+  }
+  .addcomment{
+    margin:5px;
+  
+  
+  }
+  .name{
+    font-size: 1.5rem;
+    color: black;
+  }
+  .description{
+    font-size: 1.5rem;
+    color: black;
+  }
+  .forminput{
+    width: 20%;
+    padding: 1.5rem;
+    border-radius:0.5rem ;
+  }
+  .formbutton{
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    
+  }
+  .formbutton:hover{
+  background-color: black;
+  color: white;
+  }
