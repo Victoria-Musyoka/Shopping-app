@@ -3,6 +3,11 @@
 This is a project based on shopping, where the user is able to comment on the services provided which will be stored in the db.json. Also, they are able to buy the item provided. This application also enables the user to view the items on the homepage. Contact information is also provided to contact the owner.
 
 ## ScreenShot
+![Screenshot from 2022-07-29 15-46-42](https://user-images.githubusercontent.com/106319114/181763661-fb8c4046-1533-4146-b8b0-d0fd84a7c28e.png)
+
+![Screenshot from 2022-07-29 15-46-13](https://user-images.githubusercontent.com/106319114/181763739-a47f8f12-53c8-4273-a8a5-99c3913fe2a5.png)
+
+
 
 ## Technologies Used
  
