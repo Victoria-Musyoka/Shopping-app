@@ -1,6 +1,4 @@
-import React from 'react'
-// import { FavoriteBorderOutlined } from '@mui/icons-material';
-// import { ShoppingCartOutlined } from '@mui/icons-material';
+import React, {useState} from 'react'
 import styled from 'styled-components';
 
 
@@ -43,30 +41,17 @@ const Image = styled.img`
   z-index: 2;
 `;
 
-// const Icon = styled.div`
-//   width: 40px;
-//   height: 40px;
-//   border-radius: 50%;
-//   background-color: white;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   margin: 10px;
-//   transition: all 0.5s ease;
-//   &:hover {
-//     background-color: #e9f5f5;
-//     transform: scale(1.1);
-//   }
-// `;
+
 
 const Product = ({ item }) => {
+    const [like,setLike]=useState(0);
   return (
     <Container>
   
       <Image src={item.img} />
       <Info>
       
-         <button id="likeBtn">like</button>
+         <button id="likeBtn"onClick={()=>setLike(like + 1)} >like:{like}</button>
          {/* list.querySelector("#likeBtn").addEventListener('click',()=>{
       
       trip.likes +=1; */}
