@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const postUrl = "http://localhost:4000/comments";
+const postUrl = "https://hurricane-diligent-lipstick.glitch.me/comments";
 
 const CommentForm = ({onAddReview}) => {
   const [name, setName] = useState();
