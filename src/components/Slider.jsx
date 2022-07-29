@@ -110,7 +110,7 @@ const Slider = () => {
             <Title>{item.title}</Title>
             <Description>{item.description}</Description>
             <div>
-            <Button onClick={handleLike}>{isLike? "buy": "bought"}</Button>
+            <Button onClick={handleLike}>{isLike? "purchased": "buy"}</Button>
             </div>
           </InfoContainer>
           </Slide>
