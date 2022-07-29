@@ -5,7 +5,12 @@ This is a project based on shopping, where the user is able to comment on the se
 ## ScreenShot
 
 ## Technologies Used
+ 
+ -CSS- which was used to style the user interface.
 
+ -JAVASCRIPT-validate the homepage and used to connect to json-server.
+
+ -REACT
 
 
 
