@@ -12,10 +12,12 @@ This is a project based on shopping, where the user is able to comment on the se
 
  -REACT
 
+ 
+
 
 
 ## Installation Process
--Clone to this repo : git clone 
+-Clone to this repo : git clone (https://github.com/Victoria-Musyoka/Shopping-app)
 
 -Unzip the downloaded files in a folder of choice.
 
