@@ -25,7 +25,7 @@ This is a project based on shopping, where the user is able to comment on the se
 
 ## Live Link
 
--[Click this link to view the live application]  
+-[Click this link to view the live application]  (https://shoppingbestapplication1.netlify.app/)
 ## LICENSE
 
 MIT License
